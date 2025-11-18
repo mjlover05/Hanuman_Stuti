@@ -1,0 +1,129 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Noto Sans Devanagari', Arial, sans-serif;
+    background-color: #fff8dc;
+    color: #4a2c17;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Glitter Multicolor Heading */
+h1,
+h2 {
+    background: linear-gradient(135deg,
+            #ff4e50,
+            #f9d423,
+            #24fe41,
+            #00c6ff,
+            #ff00ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300% 300%;
+    animation: glitterMove 6s ease infinite, sparkle 2s linear infinite;
+    font-weight: 700;
+}
+
+/* Heading size */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+/* Doha Box */
+.doha-box {
+    background: linear-gradient(to bottom, #fff3d4, #f0e0c0);
+    padding: 18px;
+    border-left: 5px solid #d2691e;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    box-shadow: 0 0 12px rgba(200, 120, 40, 0.2);
+    line-height: 1.5;
+}
+
+/* Hanuman image */
+.hanuman-img {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+/* Chalisa Text */
+/* pre {
+    background-color: #f9f3e7;
+    padding: 20px;
+    border-radius: 15px;
+    white-space: pre-wrap;
+    font-size: 1.3rem;
+    line-height: 1.35;
+    color: #4a2c17;
+    border: 2px solid #e0c9a6;
+    box-shadow: 0 0 10px rgba(150, 90, 40, 0.15);
+} */
+
+pre {
+    background: url('back.png');
+    background-size: contain;
+    background-repeat: repeat;
+    padding: 25px;
+    border-radius: 15px;
+    white-space: pre-wrap;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: #4a2c17;
+    border: 2px solid #e0c9a6;
+    box-shadow: 0 0 12px rgba(150, 90, 40, 0.20);
+}
+
+
+/* Glitter Effects
+@keyframes glitterMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes sparkle {
+
+    0%,
+    100% {
+        text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+    }
+
+    50% {
+        text-shadow: 0 0 14px rgba(255, 255, 255, 1);
+    }
+} */
+
+.religious-text {
+    color: #7a1f1f;
+    /* deep maroon */
+    font-weight: 600;
+}
